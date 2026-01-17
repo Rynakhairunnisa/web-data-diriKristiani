@@ -1,0 +1,63 @@
+/* RESET DASAR */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+/* BACKGROUND */
+body {
+	height: 100vh;
+	background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* KARTU UTAMA */
+.card {
+	width: 400px;
+	background: white;
+	padding: 30px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+	/* FOTO */
+	.card img {
+		width: 130px;
+		height: 130px;
+		border-radius: 50%;
+		border: 5px solid #7f7fd5;
+		object-fit: cover;
+		margin-bottom: 15px;
+	}
+
+/* NAMA */
+.nama {
+	color: #333;
+	margin-bottom: 5px;
+}
+
+/* STATUS */
+.status {
+	color: gray;
+	margin-bottom: 20px;
+}
+
+/* TABEL */
+table {
+	width: 100%;
+	font-size: 15px;
+}
+
+td {
+	padding: 8px;
+	text-align: left;
+}
+
+	td:first-child {
+		font-weight: bold;
+	}
